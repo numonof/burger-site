@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
+
+* {
+    font-family: 'Raleway', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+$yellow:#eacf4f;
+$white:#fff;
+$black:#000;
+$light-yellow:#aaa;
+$border: .2rem solid rgba(225, 255, 255, .3);
+
+@mixin title-text($title-size) {
+    font-size: $title-size;
+    text-transform: uppercase;
+    color: $white;
+}
+
+@mixin grap-text($grapSize) {
+    font-size: $grapSize;
+    line-height: 2;
+    color: $light-color;
+}
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 2rem;
+}
+
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $yellow;
+        border-radius: 5rem;
+        -webkit-border-radius: 5rem;
+        -moz-border-radius: 5rem;
+        -ms-border-radius: 5rem;
+        -o-border-radius: 5rem;
+    }
+}
+body{
+    background: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}

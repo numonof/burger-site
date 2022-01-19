@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!--css file-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.scss">
+    <title>Document</title>
+</head>
+
+<body>
+    <!------------------ Header --------------------->
+    <header class="header">
+        <div class="navigation__bar">
+            <div class="nav-search__burger__btn">
+                <i id="menu-btn" class="fas fa-bars icons"></i>
+                <i id="search-btn" class="fas fa-search icons"></i>
+            </div>
+
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#home">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+                    <li class="nav-item"><a href="#home" class="logo"><img src="images/logo.png" alt="logo"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blogs">blogs</a></li>
+                </ul>
+            </nav>
+            <div class="shopping__cart">
+                <a href="#" id="karzina" class="fas fa-shopping-cart icons"></a>
+            </div>
+
+        </div>
+
+        <!--      
+   <form action="" class="search-form">
+      <input type="search" name="" placeholder="search here..." id="search-box">
+      <label for="search-box" class="fas fa-search icons"></label>
+   </form> -->
+    </header>
+    <main>
+        <section class="hero__section">
+            <div class="hero__section__introduction">
+                <img src="./images/burger-baner.png" class="burger__banner" alt="">
+                <h2 class="title">SO MEATY YOU'LL GO CRAZY</h2>
+                <p class="dec">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolores At Fuga Aliquam Ipsa
+                    Recusandae Repellat Laudantium Pariatur Amet Culpa Cum.</p>
+                <a href="#" class="button">our menu</a>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <ul class="services__list">
+                    <li class="services-list-item">
+                        <span class="card__img"> <i class="fas fa-hamburger"></i></span>
+                        <h5 class="card__title">BEST QUALITY</h5>
+                        <p class="card__text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Incidunt, Cum.
+                        </p>
+                    </li>
+                    <li class="services-list-item">
+                        <span class="card__img"> <i class="fas fa-shipping-fast"></i></span>
+                        <h5 class="card__title">FREE DELIVERY</h5>
+                        <p class="card__text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Incidunt, Cum.
+                        </p>
+                    </li>
+                    <li class="services-list-item ">
+                        <span class="card__img"> <i class="fas fa-headset"></i></span>
+                        <h5 class="card__title">24/7 SUPPORT</h5>
+                        <p class="card__text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Incidunt, Cum.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="container">
+                <div class="menu__section__heading">
+                    <img class="title-img" src="./images/title-img.png" alt="menu">
+                    <h3 class="menu-title">our menu</h3>
+                </div>
+                <div class="product__list">
+                    <div class="box">
+                        <img class="product-img" src="images/product-1.png" alt="product-img">
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3 class="box-title">cheese hamburger</h3>
+                            <p class="price">$29.99</p>
+                            <a href="#" class="button menu-button">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="product-img" src="images/product-2.png" alt="product-img">
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3 class="box-title">cheese hamburger</h3>
+                            <p class="price">$29.99</p>
+                            <a href="#" class="button menu-button">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="product-img" src="images/product-3.png" alt="product-img">
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3 class="box-title">cheese hamburger</h3>
+                            <p class="price">$29.99</p>
+                            <a href="#" class="button menu-button">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="product-img" src="images/product-4.png" alt="product-img">
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3 class="box-title">cheese hamburger</h3>
+                            <p class="price">$29.99</p>
+                            <a href="#" class="button menu-button">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="product-img" src="images/product-5.png" alt="product-img">
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3 class="box-title">cheese hamburger</h3>
+                            <p class="price">$29.99</p>
+                            <a href="#" class="button menu-button">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="product-img" src="images/product-6.png" alt="product-img">
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3 class="box-title">cheese hamburger</h3>
+                            <p class="price">$29.99</p>
+                            <a href="#" class="button menu-button">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__media">
+                    <img src="./images/about-img.png" alt="about-img">
+                </div>
+                <div class="about__introduction">
+                    <h3 class="about__title">STEP INTO BURGER HEAVEN</h3>
+                    <p class="about__dec">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Est, Veniam Error
+                        Fugit Quasi Perspiciatis Blanditiis Quo, Sint Beatae Ut, Commodi Fuga Illo Reprehenderit Ea
+                        Voluptatibus Earum Fugiat Obcaecati Doloremque? Aspernatur?</p>
+                    <div class="about__services">
+                        <ul class="about__list">
+                            <li class="about__list__item"><span><i class="fas fa-check"></i> best price</span> </li>
+                            <li class="about__list__item"><span><i class="fas fa-check"></i> best price</span> </li>
+                            <li class="about__list__item"><span><i class="fas fa-check"></i> best price</span> </li>
+                            <li class="about__list__item"><span><i class="fas fa-check"></i> best price</span> </li>
+                            <li class="about__list__item"><span><i class="fas fa-check"></i> best price</span> </li>
+                            <li class="about__list__item"><span><i class="fas fa-check"></i> best price</span> </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button">read more</a>
+                </div>
+            </div>
+        </section>
+        <section class="reviws" id="reviws">
+            <div class="container">
+                <div class="reviws__section__heading">
+                    <img class="title-img" src="./images/title-img.png" alt="menu">
+                    <h3 class="reviws-title">testimonial</h3>
+                </div>
+            </div>
+            <div class="reviws__menu">
+                <ul class="reviws__list">
+                    <li class="reviws-list-item">
+                        <span class="reviws__card__img"><img src="./images/pic-1.png" alt="img"></span>
+                        <h5 class="card__title">john deo</h5>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui
+                            accusamus autem! Veniam exercitationem adipisci in excepturi labore magni voluptatibus?
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </li>
+                    <li class="reviws-list-item">
+                        <span class="reviws__card__img"><img src="./images/pic-2.png" alt="img"></span>
+                        <h5 class="card__title">john deo</h5>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui
+                            accusamus autem! Veniam exercitationem adipisci in excepturi labore magni voluptatibus? </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </li>
+                    <li class="reviws-list-item ">
+                        <span class="reviws__card__img"><img src="./images/pic-3.png" alt="img"></span>
+                        <h5 class="card__title">john deo</h5>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui
+                            accusamus autem! Veniam exercitationem adipisci in excepturi labore magni voluptatibus?
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact__section__heading">
+                    <img class="title-img" src="./images/title-img.png" alt="menu">
+                    <h3 class="contact-title">contact uc</h3>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.5594046287574!2d69.22625691479448!3d41.31844760823014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b97fae45633%3A0xc715253d21e28229!2zUW9yYXRvc2gga28nY2hhc2ksINCi0L7RiNC60LXQvdGCLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1640040364531!5m2!1sru!2s"style="border:0;" class="location" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="contact__introduction">
+                        <ul class="contact__list">
+                            <li class="contact-list-item">
+                                <span class="card__img">  <i class="fas fa-map"></i></span>
+                                <h5 class="c-title card__title">address :</h5>
+                                <p class="c-text card__text">mumbai, india - 400104
+                                </p>
+                            </li>
+                            <li class="contact-list-item">
+                                <span class="card__img"> <i class="fas fa-envelope"></i></span>
+                                <h5 class="c-title card__title">email :</h5>
+                                <p class="c-text   card__text">shaikhanas@gmail.com</p>
+                                <p class="c-text card__text">anasbhai@gmail.com</p>
+                            </li>
+                            <li class="contact-list-item ">
+                                <span class="card__img"> <i class="fas fa-phone"></i></span>
+                                <h5 class="c-title card__title">phone :</h5>
+                                <p class=" c-text card__text">+123-456-7890</p>
+                                <p class=" c-text card__text">+111-222-3333</p>
+                            </li>
+                        </ul>
+
+                        <form class="contact-form">
+                            <input type="text" name="full_name" id="full-name" placeholder="full name">
+                            <input type="email" name="email" id="email" placeholder="email">
+                            <input type="tel" name="phone" id="phone" placeholder="phone">
+                            <textarea name="message" id="message" cols="30" placeholder="message" class="message" rows="10"></textarea>
+                        </form>
+                        <a href="#" class="form-action"> send message</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <!-- script.js link -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
